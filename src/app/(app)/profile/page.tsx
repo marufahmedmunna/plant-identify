@@ -67,7 +67,9 @@ export default function ProfilePage() {
               user?.photoURL ||
               user?.providerData?.[0]?.photoURL ||
               "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+              
             }
+            // placeholder link image
             alt="User avatar"
           />
           <AvatarFallback>{user?.displayName?.charAt(0) || "U"}</AvatarFallback>

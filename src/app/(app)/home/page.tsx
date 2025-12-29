@@ -335,8 +335,8 @@ export default function HomePage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Sparkles className="w-6 h-6 text-primary" />
-                  AI Analysis Results
+                
+                  Identification Results
                 </CardTitle>
               </CardHeader>
               <CardContent className="grid gap-4 text-sm">

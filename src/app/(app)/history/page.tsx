@@ -1,6 +1,7 @@
 'use client';
 
-import Image from 'next/image';
+import Image from 'next/image'; 
+// image optimazation
 import { useHistoryStore } from '@/store/history';
 import { Card, CardContent } from '@/components/ui/card';
 import { Sprout, Trash2 } from 'lucide-react';
@@ -9,7 +10,7 @@ import { Button } from '@/components/ui/button';
 export default function HistoryPage() {
   const { history, removeHistoryItem, clearHistory } = useHistoryStore();
 
-  console.log('History:', history);
+  
 
   return (
     <div className="p-4">
